@@ -3,6 +3,13 @@ import { action } from '@ember/object';
 
 export default class UsersUserController extends Controller {
   @action
+  async archiveUser() {
+    if (confirm('Are you sure you want to archive this user?')) {
+      this.model.changeArchivedStatus();
+    }
+  }
+
+  @action
   async modifyValue() {
     this.model.changeValue();
 
