@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # user-archiving
 
 Feature request: User archiving.
@@ -32,6 +33,8 @@ This feature does not currently hook into the backend, so refreshing your sessio
 
 An example of modifying a value of a user is given on their profiles. They each have a simple boolean named "value", which can be toggled between true, or false with a button click. This button can be found on every users profile.
 
+=======
+>>>>>>> 0361e544a9e1188fd6430a43bf288f7638ec75af
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
