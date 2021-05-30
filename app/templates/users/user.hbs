@@ -17,6 +17,10 @@
           Example Value:
           {{@model.value}}
         </p>
+        <p class="subtitle has-text-white my-2">
+          Archived:
+          {{@model.archived}}
+        </p>
         <button
           type="button"
           class="button is-pulled-left mt-4"
@@ -24,7 +28,13 @@
         >
           Change Value
         </button>
-
+        <button
+          type="button"
+          class="button is-pulled-right mt-4"
+          {{on "click" this.archiveUser}}
+        >
+          Archive/Unarchive
+        </button>
       </div>
     </div>
   </div>
